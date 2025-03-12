@@ -8,6 +8,10 @@ This is a TypeScript-based MCP server that implements a simple notes system. It 
 - Tools for creating new notes
 - Prompts for generating summaries of notes
 
+<a href="https://glama.ai/mcp/servers/taqmq8493y">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/taqmq8493y/badge" alt="OpenAPI Client Generator MCP server" />
+</a>
+
 ## Features
 
 ### Resources
@@ -46,7 +50,7 @@ npm run watch
 
 To use with Claude Desktop, add the server config:
 
-On MacOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+On MacOS: `~/Library/Application Support/Claude/claude_desktop_config.json`  
 On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
 
 ```json
