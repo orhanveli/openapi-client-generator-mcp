@@ -9,7 +9,6 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 import { generate } from "openapi-typescript-codegen";
 import fs from "fs/promises";
-import path from "path";
 
 interface GenerateClientArgs {
   input: string;

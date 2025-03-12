@@ -2,11 +2,6 @@
 
 A Model Context Protocol server to generate API clients by using TypeScript.
 
-This is a TypeScript-based MCP server that implements a simple notes system. It demonstrates core MCP concepts by providing:
-
-- Resources representing text notes with URIs and metadata
-- Tools for creating new notes
-- Prompts for generating summaries of notes
 
 <a href="https://glama.ai/mcp/servers/taqmq8493y">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/taqmq8493y/badge" alt="OpenAPI Client Generator MCP server" />
@@ -15,19 +10,11 @@ This is a TypeScript-based MCP server that implements a simple notes system. It 
 ## Features
 
 ### Resources
-- List and access notes via `note://` URIs
-- Each note has a title, content and metadata
-- Plain text mime type for simple content access
-
-### Tools
-- `create_note` - Create new text notes
-  - Takes title and content as required parameters
-  - Stores note in server state
+- Generates an axios based API client that can be used to interact with the API.
+- It uses OpenAPI / Swagger specs to generate the client.
 
 ### Prompts
-- `summarize_notes` - Generate a summary of all stored notes
-  - Includes all note contents as embedded resources
-  - Returns structured prompt for LLM summarization
+- `generate_client` - Generate a API client for specified OpenAPI specs.
 
 ## Development
 
@@ -75,3 +62,15 @@ npm run inspector
 ```
 
 The Inspector will provide a URL to access debugging tools in your browser.
+
+## Contributing
+
+Feel free to contribute to the project by opening issues or submitting pull requests. We welcome any improvements or new features that align with the project's goals.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+----
+
+Built with [Cline](https://github.com/cline/cline)
