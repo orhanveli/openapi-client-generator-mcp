@@ -1,6 +1,6 @@
 {
   "name": "openapi-client-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Model Context Protocol server to generate API clients by using TypeScript.",
   "private": true,
   "type": "module",
